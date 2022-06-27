@@ -52,6 +52,7 @@ input::-webkit-input-placeholder {
 	line-height: 20px;
 	text-transform: uppercase;
 	color: white;
+	cursor: pointer;
 }
 
 .modal .content {
