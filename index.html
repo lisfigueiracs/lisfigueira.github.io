@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+		<link rel="stylesheet" href="style.css" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- Add the slick-theme.css if you want default styling -->
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+		/>
+		<!-- Add the slick-theme.css if you want default styling -->
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+		/>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Vite App</title>
+	</head>
+	<body>
+		<header>
+			<div class="section-header-desktop">
+				<div class="top-bar">
+					<p>
+						Acompanhe as melhores promoções disponíveis aqui na Maeztra.
+					</p>
+				</div>
+				<div class="box">
+					<div class="section-main-header">
+						<div class="logo">
+							<img src="/assets/logo.png" alt="Logotipo Maeztra" />
+						</div>
+						<div class="busca">
+							<input type="text" placeholder="O Que Você Busca?" />
+							<button>Buscar</button>
+						</div>
+						<div class="login">
+							<ul>
+								<li>
+									<img
+										src="/assets/icon-perfil.png"
+										alt="icone de boneco"
+									/>
+									<p>Minha Conta</p>
+								</li>
+								<li>
+									<img
+										src="/assets/icon-heart.png"
+										alt="icone de coração"
+									/>
+									<p>Minha Conta</p>
+								</li>
+								<li class="carrinho">
+									<img
+										src="/assets/icon-bag.png"
+										alt="icone de sacola"
+									/>
+									<p>Meu Carrinho</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="menu">
+					<ul>
+						<li class="novidades">
+							<img src="/assets/icon-dress.png" alt="icone de vestido" />
+							<p>Novidades</p>
+						</li>
+						<li>Vestidos</li>
+						<li>Roupas</li>
+						<li>Sapatos</li>
+						<li>Lingerie</li>
+						<li>Acessórios</li>
+						<li>OUTLET</li>
+					</ul>
+				</div>
+			</div>
+			<div class="section-header-mobile">
+				<div class="top-bar">
+					<p>
+						Acompanhe as melhores promoções disponíveis aqui na Maeztra.
+					</p>
+				</div>
+				<div class="container-menu">
+					<div class="container-1">
+						<img src="/assets/botao-menu.png" alt="" />
+						<img src="/assets/logo-mobile.png" alt="" />
+					</div>
+					<div class="container-2">
+						<img src="/assets/lupa.png" alt="" />
+						<img src="/assets/bag-mobile.png" alt="" />
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section class="main-banner-desktop">
+			<img src="assets/banner-desktop.png" alt="banner" />
+			<img src="assets/banner-desktop.png" alt="banner" />
+			<img src="assets/banner-desktop.png" alt="banner" />
+			<img src="assets/banner-desktop.png" alt="banner" />
+			<img src="assets/banner-desktop.png" alt="banner" />
+		</section>
+		<section class="main-banner-mobile">
+			<img src="assets/banner-mobile.png" alt="banner" />
+			<img src="assets/banner-mobile.png" alt="banner" />
+			<img src="assets/banner-mobile.png" alt="banner" />
+			<img src="assets/banner-mobile.png" alt="banner" />
+			<img src="assets/banner-mobile.png" alt="banner" />
+		</section>
+		<section class="main-content-desktop">
+			<section id="info">
+				<div class="info-cards">
+					<h2>Por que comprar na Maeztra?</h2>
+				</div>
+				<div class="cards">
+					<div class="card">
+						<img src="/assets/icon-earth.png" alt="icone planeta terra" />
+						<div class="card-text">
+							<h2>Produtos importados</h2>
+							<span>Produto de Alta Qualidade</span>
+						</div>
+					</div>
+					<div class="card">
+						<img src="/assets/icon-house.png" alt="icone casa" />
+						<div class="card-text">
+							<h2>Estoque no Brazil</h2>
+							<span>Produtos mais perto de você!</span>
+						</div>
+					</div>
+					<div class="card">
+						<img
+							src="/assets/icon-trocas.png"
+							alt="icone de troca de produtos"
+						/>
+						<div class="card-text">
+							<h2>Trocas Garantidas</h2>
+							<span>Trocas em até 48 horas, vejas as regras</span>
+						</div>
+					</div>
+					<div class="card">
+						<img
+							src="/assets/icon-etiqueta.png"
+							alt="icone de etiqueta"
+						/>
+						<div class="card-text">
+							<h2>Ganhe 5% off</h2>
+							<span>Pagando à vista no Cartão</span>
+						</div>
+					</div>
+					<div class="card">
+						<img src="/assets/icon-frete.png" alt="icone de frete" />
+						<div class="card-text">
+							<h2>Frete Grátis</h2>
+							<span>Em compras acima de R$ 499,00</span>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="post">
+				<div class="text-post">
+					<h2>Marcas Parceiras</h2>
+				</div>
+				<div class="images">
+					<img src="/assets/marca-comma.png" alt="logo marca comma" />
+					<img src="/assets/marca-melissa.png" alt="logo marca melissa" />
+					<img
+						src="/assets/marca-forever21.png"
+						alt="logo marca forever21"
+					/>
+					<img src="/assets/marca-zara.png" alt="logo marca zara" />
+					<img
+						src="/assets/marca-anntaylor.png"
+						alt="logo marca ann taylor"
+					/>
+				</div>
+			</section>
+
+			<section class="products">
+				<div class="product-text">
+					<h2>As Mais Pedidas</h2>
+				</div>
+				<div class="product">
+					<div class="product-card">
+						<img
+							src="/assets/Produto01.png"
+							alt="mulher vestida com blusa branca e saia bege"
+						/>
+						<div class="colors">
+							<p class="red selected"></p>
+							<p class="blue"></p>
+							<p class="green"></p>
+							<p class="purple"></p>
+						</div>
+						<span>R$500,00</span>
+						<h2>Faux Suede Mini Skirt</h2>
+						<p>
+							A faux suede mini skirt featuring exposed button-front
+							closures and panel seam construction.
+						</p>
+						<button>Adicionar</button>
+					</div>
+					<div class="product-card">
+						<img
+							src="/assets/Produto02.png"
+							alt="mulher vestida com blusa branca e saia florida"
+						/>
+						<div class="colors">
+							<p class="red"></p>
+							<p class="blue"></p>
+							<p class="green"></p>
+							<p class="purple"></p>
+						</div>
+						<span>R$320,00</span>
+						<h2>Ruched Rose Print Mini Skirt</h2>
+						<p>
+							A satin mini skirt featuring an allover floral print,
+							ruched side with self-tie closure, concealed back zipper,
+							and a flounce hem.
+						</p>
+						<button>Adicionar</button>
+					</div>
+					<div class="product-card">
+						<img
+							src="/assets/Produto01.png"
+							alt="mulher vestida com blusa branca e saia bege"
+						/>
+						<div class="colors">
+							<p class="red selected"></p>
+							<p class="blue"></p>
+							<p class="green"></p>
+							<p class="purple"></p>
+						</div>
+						<span>R$500,00</span>
+						<h2>Faux Suede Mini Skirt</h2>
+						<p>
+							A faux suede mini skirt featuring exposed button-front
+							closures and panel seam construction.
+						</p>
+						<button>Adicionar</button>
+					</div>
+					<div class="product-card">
+						<img
+							src="/assets/Produto02.png"
+							alt="mulher vestida com blusa branca e saia bege"
+						/>
+						<div class="colors">
+							<p class="red selected"></p>
+							<p class="blue"></p>
+							<p class="green"></p>
+							<p class="purple"></p>
+						</div>
+						<span>R$500,00</span>
+						<h2>Faux Suede Mini Skirt</h2>
+						<p>
+							A faux suede mini skirt featuring exposed button-front
+							closures and panel seam construction.
+						</p>
+						<button>Adicionar</button>
+					</div>
+					<div class="product-card">
+						<img
+							src="/assets/Produto01.png"
+							alt="mulher vestida com blusa branca e saia bege"
+						/>
+						<div class="colors">
+							<p class="red selected"></p>
+							<p class="blue"></p>
+							<p class="green"></p>
+							<p class="purple"></p>
+						</div>
+						<span>R$500,00</span>
+						<h2>Faux Suede Mini Skirt</h2>
+						<p>
+							A faux suede mini skirt featuring exposed button-front
+							closures and panel seam construction.
+						</p>
+						<button>Adicionar</button>
+					</div>
+					<div class="product-card">
+						<img
+							src="/assets/Produto02.png"
+							alt="mulher vestida com blusa branca e saia bege"
+						/>
+						<div class="colors">
+							<p class="red selected"></p>
+							<p class="blue"></p>
+							<p class="green"></p>
+							<p class="purple"></p>
+						</div>
+						<span>R$500,00</span>
+						<h2>Faux Suede Mini Skirt</h2>
+						<p>
+							A faux suede mini skirt featuring exposed button-front
+							closures and panel seam construction.
+						</p>
+						<button>Adicionar</button>
+					</div>
+					<div class="product-card">
+						<img
+							src="/assets/Produto02.png"
+							alt="mulher vestida com blusa branca e saia florida"
+						/>
+						<div class="colors">
+							<p class="red selected"></p>
+							<p class="blue"></p>
+							<p class="green"></p>
+							<p class="purple"></p>
+						</div>
+						<span>R$320,00</span>
+						<h2>Ruched Rose Print Mini Skirt</h2>
+						<p>
+							A satin mini skirt featuring an allover floral print,
+							ruched side with self-tie closure, concealed back zipper,
+							and a flounce hem.
+						</p>
+						<button>Adicionar</button>
+					</div>
+					<div class="product-card">
+						<img
+							src="/assets/Produto01.png"
+							alt="mulher vestida com blusa branca e saia bege"
+						/>
+						<div class="colors">
+							<p class="red selected"></p>
+							<p class="blue"></p>
+							<p class="green"></p>
+							<p class="purple"></p>
+						</div>
+						<span>R$500,00</span>
+						<h2>Faux Suede Mini Skirt</h2>
+						<p>
+							A faux suede mini skirt featuring exposed button-front
+							closures and panel seam construction.
+						</p>
+						<button>Adicionar</button>
+					</div>
+				</div>
+			</section>
+
+			<section class="new-colection">
+				<div class="text-colection">
+					<h2>Lorem Ipsum</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						Interdum mauris posuere fusce proin mattis. Hendrerit cras ut
+						nunc enim dictum. Mattis proin ut quis donec sed eget nulla.
+						Vel mi ut mauris integer. Nibh sagittis in lobortis sed cursus
+						condimentum velit pharetra. Amet luctus ut vulputate
+						scelerisque placerat consequat. Neque arcu mi iaculis id. Vel
+						vitae, pharetra, a nec tristique. Feugiat id tortor eu mauris
+						pulvinar velit massa. Ut ornare augue eget convallis volutpat
+						aliquet. Sed sed pellentesque porttitor phasellus donec
+						condimentum sit sapien.
+					</p>
+				</div>
+				<div class="image-colection">
+					<img
+						src="/assets/Banner-colection.png"
+						alt="mulher de oculos com vestido amarelo"
+					/>
+				</div>
+			</section>
+		</section>
+		<section class="main-content-mobile">
+			<section id="info">
+				<div class="info-cards">
+					<h2>Por que comprar na Maeztra?</h2>
+				</div>
+				<div class="cards-mobile">
+					<div class="card">
+						<img src="/assets/icon-earth.png" alt="icone planeta terra" />
+						<div class="card-text">
+							<h2>Produtos importados</h2>
+							<span>Produto de Alta Qualidade</span>
+						</div>
+					</div>
+					<div class="card">
+						<img src="/assets/icon-house.png" alt="icone casa" />
+						<div class="card-text">
+							<h2>Estoque no Brazil</h2>
+							<span>Produtos mais perto de você!</span>
+						</div>
+					</div>
+					<div class="card">
+						<img
+							src="/assets/icon-trocas.png"
+							alt="icone de troca de produtos"
+						/>
+						<div class="card-text">
+							<h2>Trocas Garantidas</h2>
+							<span>Trocas em até 48 horas, vejas as regras</span>
+						</div>
+					</div>
+					<div class="card">
+						<img
+							src="/assets/icon-etiqueta.png"
+							alt="icone de etiqueta"
+						/>
+						<div class="card-text">
+							<h2>Ganhe 5% off</h2>
+							<span>Pagando à vista no Cartão</span>
+						</div>
+					</div>
+					<div class="card">
+						<img src="/assets/icon-frete.png" alt="icone de frete" />
+						<div class="card-text">
+							<h2>Frete Grátis</h2>
+							<span>Em compras acima de R$ 499,00</span>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="post">
+				<div class="text-post">
+					<h2>Marcas Parceiras</h2>
+				</div>
+				<div class="images">
+					<img src="/assets/marca-comma.png" alt="logo marca comma" />
+					<img src="/assets/marca-melissa.png" alt="logo marca melissa" />
+					<img
+						src="/assets/marca-forever21.png"
+						alt="logo marca forever21"
+					/>
+					<img src="/assets/marca-zara.png" alt="logo marca zara" />
+					<img
+						src="/assets/marca-anntaylor.png"
+						alt="logo marca ann taylor"
+					/>
+				</div>
+			</section>
+			<section class="products">
+				<div class="product-text">
+					<h2>As Mais Pedidas</h2>
+				</div>
+				<div class="product-mobile">
+					<div class="product-card">
+						<img
+							src="/assets/Produto01.png"
+							alt="mulher vestida com blusa branca e saia bege"
+						/>
+						<div class="colors">
+							<p class="red selected"></p>
+							<p class="blue"></p>
+							<p class="green"></p>
+							<p class="purple"></p>
+						</div>
+						<span>R$500,00</span>
+						<h2>Faux Suede Mini Skirt</h2>
+						<p>
+							A faux suede mini skirt featuring exposed button-front
+							closures and panel seam construction.
+						</p>
+						<button>Adicionar</button>
+					</div>
+					<div class="product-card">
+						<img
+							src="/assets/Produto02.png"
+							alt="mulher vestida com blusa branca e saia florida"
+						/>
+						<div class="colors">
+							<p class="red selected"></p>
+							<p class="blue"></p>
+							<p class="green"></p>
+							<p class="purple"></p>
+						</div>
+						<span>R$320,00</span>
+						<h2>Ruched Rose Print Mini Skirt</h2>
+						<p>
+							A satin mini skirt featuring an allover floral print,
+							ruched side with self-tie closure, concealed back zipper,
+							and a flounce hem.
+						</p>
+						<button>Adicionar</button>
+					</div>
+					<div class="product-card">
+						<img
+							src="/assets/Produto01.png"
+							alt="mulher vestida com blusa branca e saia bege"
+						/>
+						<div class="colors">
+							<p class="red selected"></p>
+							<p class="blue"></p>
+							<p class="green"></p>
+							<p class="purple"></p>
+						</div>
+						<span>R$500,00</span>
+						<h2>Faux Suede Mini Skirt</h2>
+						<p>
+							A faux suede mini skirt featuring exposed button-front
+							closures and panel seam construction.
+						</p>
+						<button>Adicionar</button>
+					</div>
+					<div class="product-card">
+						<img
+							src="/assets/Produto02.png"
+							alt="mulher vestida com blusa branca e saia bege"
+						/>
+						<div class="colors">
+							<p class="red selected"></p>
+							<p class="blue"></p>
+							<p class="green"></p>
+							<p class="purple"></p>
+						</div>
+						<span>R$500,00</span>
+						<h2>Faux Suede Mini Skirt</h2>
+						<p>
+							A faux suede mini skirt featuring exposed button-front
+							closures and panel seam construction.
+						</p>
+						<button>Adicionar</button>
+					</div>
+					<div class="product-card">
+						<img
+							src="/assets/Produto01.png"
+							alt="mulher vestida com blusa branca e saia bege"
+						/>
+						<div class="colors">
+							<p class="red selected"></p>
+							<p class="blue"></p>
+							<p class="green"></p>
+							<p class="purple"></p>
+						</div>
+						<span>R$500,00</span>
+						<h2>Faux Suede Mini Skirt</h2>
+						<p>
+							A faux suede mini skirt featuring exposed button-front
+							closures and panel seam construction.
+						</p>
+						<button>Adicionar</button>
+					</div>
+					<div class="product-card">
+						<img
+							src="/assets/Produto02.png"
+							alt="mulher vestida com blusa branca e saia bege"
+						/>
+						<div class="colors">
+							<p class="red selected"></p>
+							<p class="blue"></p>
+							<p class="green"></p>
+							<p class="purple"></p>
+						</div>
+						<span>R$500,00</span>
+						<h2>Faux Suede Mini Skirt</h2>
+						<p>
+							A faux suede mini skirt featuring exposed button-front
+							closures and panel seam construction.
+						</p>
+						<button>Adicionar</button>
+					</div>
+					<div class="product-card">
+						<img
+							src="/assets/Produto02.png"
+							alt="mulher vestida com blusa branca e saia florida"
+						/>
+						<div class="colors">
+							<p class="red selected"></p>
+							<p class="blue"></p>
+							<p class="green"></p>
+							<p class="purple"></p>
+						</div>
+						<span>R$320,00</span>
+						<h2>Ruched Rose Print Mini Skirt</h2>
+						<p>
+							A satin mini skirt featuring an allover floral print,
+							ruched side with self-tie closure, concealed back zipper,
+							and a flounce hem.
+						</p>
+						<button>Adicionar</button>
+					</div>
+					<div class="product-card">
+						<img
+							src="/assets/Produto01.png"
+							alt="mulher vestida com blusa branca e saia bege"
+						/>
+						<div class="colors">
+							<p class="red selected"></p>
+							<p class="blue"></p>
+							<p class="green"></p>
+							<p class="purple"></p>
+						</div>
+						<span>R$500,00</span>
+						<h2>Faux Suede Mini Skirt</h2>
+						<p>
+							A faux suede mini skirt featuring exposed button-front
+							closures and panel seam construction.
+						</p>
+						<button>Adicionar</button>
+					</div>
+				</div>
+			</section>
+			<section class="new-colection">
+				<div class="text-colection">
+					<h2>Lorem Ipsum</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						Interdum mauris posuere fusce proin mattis. Hendrerit cras ut
+						nunc enim dictum. Mattis proin ut quis donec sed eget nulla.
+						Vel mi ut mauris integer. Nibh sagittis in lobortis sed cursus
+						condimentum velit pharetra. Amet luctus ut vulputate
+						scelerisque .
+					</p>
+				</div>
+				<div class="image-colection">
+					<img
+						src="/assets/Banner-colection-mobile.png"
+						alt="mulher de oculos com vestido amarelo"
+					/>
+				</div>
+			</section>
+		</section>
+		<section class="newsletter-desktop">
+			<h2>Recebe Nossa Newsletter</h2>
+			<div class="input-newsletter-desktop">
+				<input type="text" placeholder="Digite seu e-mail" />
+				<button>Enviar</button>
+			</div>
+		</section>
+		<section class="newsletter-mobile">
+			<h2>Recebe Nossa Newsletter</h2>
+			<div class="input-newsletter-mobile">
+				<input type="text" placeholder="Digite seu e-mail" />
+				<button>Enviar</button>
+			</div>
+		</section>
+		<footer>
+			<div class="prefooter-desktop">
+				<div class="part-1">
+					<h2>Informações</h2>
+					<span>Quem Somos</span>
+					<span>Prazo de Envio</span>
+					<span>Trocas e Devoluções</span>
+					<span>Promoções e Cupons</span>
+				</div>
+				<div class="part-2">
+					<h2>Minha Conta</h2>
+					<span>Minha Conta</span>
+					<span>Meus Pedidos</span>
+					<span>Cadastre-se</span>
+				</div>
+				<div class="part-3">
+					<h2>Onde nos Encontrar</h2>
+					<span>Lojas</span>
+					<span>Endereço</span>
+				</div>
+			</div>
+
+			<div class="prefooter-mobile">
+				<div class="part-1">
+					<h2>Informações</h2>
+					<img src="/assets/mais-mobile.png" alt="" />
+				</div>
+				<div class="part-2">
+					<h2>Minha Conta</h2>
+					<img src="/assets/mais-mobile.png" alt="" />
+				</div>
+				<div class="part-3">
+					<h2>Onde nos Encontrar</h2>
+					<img src="/assets/mais-mobile.png" alt="" />
+				</div>
+			</div>
+
+			<div class="footer-desktop">
+				<div class="social-medias">
+					<img
+						src="assets/social-media/facebook.png"
+						alt="logo facebook"
+					/>
+					<img
+						src="assets/social-media/linkedin.png"
+						alt="logo linkedin"
+					/>
+					<img
+						src="assets/social-media/instagram.png"
+						alt="logo instagram"
+					/>
+					<img src="assets/social-media/youtube.png" alt="logo youtube" />
+				</div>
+				<div class="bandeiras-cartao">
+					<img
+						src="/assets/cartão/visa.png"
+						alt="logo bandeira cartão de credito visa"
+					/>
+					<img
+						src="/assets/cartão/mastercard.png"
+						alt="logo bandeira cartão de credito mastercard"
+					/>
+					<img
+						src="/assets/cartão/visa.png"
+						alt="logo bandeira cartão de credito visa"
+					/>
+					<img
+						src="/assets/cartão/mastercard.png"
+						alt="logo bandeira cartão de credito mastercard"
+					/>
+				</div>
+				<div class="developed">
+					<div class="logo-vtex">
+						<img src="/assets/Powered-by.png" alt="logo vtex" />
+						<img src="/assets/logo-vtex.png" alt="logo vtex" />
+					</div>
+					<div class="logo-maeztra">
+						<img src="/assets/logo-maeztra.png" alt="logo maeztra" />
+					</div>
+				</div>
+			</div>
+
+			<div class="footer-mobile">
+				<div class="social-medias">
+					<img
+						src="assets/social-media/facebook.png"
+						alt="logo facebook"
+					/>
+					<img
+						src="assets/social-media/linkedin.png"
+						alt="logo linkedin"
+					/>
+					<img
+						src="assets/social-media/instagram.png"
+						alt="logo instagram"
+					/>
+					<img src="assets/social-media/youtube.png" alt="logo youtube" />
+				</div>
+				<div class="bandeiras-cartao">
+					<img
+						src="/assets/cartão/visa.png"
+						alt="logo bandeira cartão de credito visa"
+					/>
+					<img
+						src="/assets/cartão/mastercard.png"
+						alt="logo bandeira cartão de credito mastercard"
+					/>
+					<img
+						src="/assets/cartão/visa.png"
+						alt="logo bandeira cartão de credito visa"
+					/>
+					<img
+						src="/assets/cartão/mastercard.png"
+						alt="logo bandeira cartão de credito mastercard"
+					/>
+				</div>
+				<div class="developed">
+					<div class="logo-vtex">
+						<img src="/assets/Powered-by.png" alt="logo vtex" />
+						<img src="/assets/logo-vtex.png" alt="logo vtex" />
+					</div>
+					<div class="logo-maeztra">
+						<img src="/assets/logo-maeztra.png" alt="logo maeztra" />
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="overlay"></div>
+
+		<script
+			type="text/javascript"
+			src="//code.jquery.com/jquery-1.11.0.min.js"
+		></script>
+		<script
+			type="text/javascript"
+			src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+		></script>
+		<script type="module" src="/main.js"></script>
+	</body>
+</html>
